@@ -19,7 +19,7 @@ public class SpringDocConfig {
                         .contact(new Contact()
                                 .name("Israel Campos")
                                 .email("leopontorua@gmail.com")
-                                .url("http:/localhost:8080")));
+                                .url("https://github.com/IsraelCavalcante1/")));
     }
 
 }

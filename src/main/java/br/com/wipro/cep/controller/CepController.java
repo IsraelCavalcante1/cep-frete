@@ -27,7 +27,7 @@ public class CepController {
         this.cepService = cepService;
     }
 
-    @ApiOperation(value = "Find address by CEP")
+    @ApiOperation(value = "Find address by CEP and calculate shipping cost")
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Success", response = CepResponse.class),
             @ApiResponse(code = 400, message = "CEP invalid format"),
@@ -35,6 +35,6 @@ public class CepController {
     })
     @GetMapping("")
     public CepResponse findAddressByCep(@RequestBody @Valid CepRequest cepRequest) throws CepNotFoundException {
-       return cepService.consultAddressByCep(cepRequest);
+        return cepService.consultAddressByCep(cepRequest);
     }
 }
