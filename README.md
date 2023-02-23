@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O CEP-FRETE é uma aplicação Java que permite ao usuário consultar o endereço de um CEP e calcular o frete com base no estado de destino. A aplicação utiliza a API ViaCEP para buscar informações sobre endereços e implementa um serviço de cálculo de frete com base em um valor fixo para as regiões do Brasil.
+O projeto CEP-FRETE é uma aplicação Java que permite ao usuário consultar o endereço de um CEP e calcular o frete com base no estado de destino. A aplicação utiliza a API ViaCEP para buscar informações sobre endereços e implementa um serviço de cálculo de frete com base em um valor fixo para as regiões do Brasil. O projeto foi desenvolvido utilizando as tecnologias Java, Spring Boot, Cucumber, JUnit e RestTemplate.
 
 ## ⚙️ Como executar
 
