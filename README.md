@@ -37,3 +37,4 @@ O projeto CEP-FRETE é uma aplicação Java que permite ao usuário consultar o 
 
 ```bash
 git clone https://github.com/IsraelCavalcante1/cep-frete.git
+Swagger Link: http://localhost:8080/swagger-ui.html
