@@ -18,7 +18,7 @@ public class CepExceptionHandler {
                 .filter(error -> error.getField().equals("cep"))
                 .map(DefaultMessageSourceResolvable::getDefaultMessage)
                 .findFirst()
-                .orElse("CEP inválido");
+                .orElse("invalid CEP");
 
         return new ErrorResponse(message);
     }

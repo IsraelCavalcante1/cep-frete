@@ -12,7 +12,6 @@ public class CepRequest {
     @ApiModelProperty(value = "The CEP to be validated. Can be either 8 digits or 5 digits followed by a dash and 3 digits.", required = true, example = "12239-320")
     private String cep;
 
-
     public CepRequest(String cep) {
         this.cep = cep;
     }
